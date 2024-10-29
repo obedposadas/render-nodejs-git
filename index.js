@@ -15,7 +15,10 @@ const port = 3000 || process.env.PORT;
 
 // Definir una ruta de prueba
 app.get("/", (req, res) => {
-  res.send("¡Hola Mundo!");
+  res.send("Grupo #1l")/n;
+  res.send("Grupo #1l")/n;
+  res.send("Grupo #1l")/n;
+  res.send("Grupo #1l")/n;
 });
 
 app.get("/ping", async (req, res) => {
